@@ -21,7 +21,7 @@ function App() {
       
       
       <div className="container mt-5 text-center">
-        <h2 className="text-success">This is your main content area</h2>
+        <h2 className="text-success">content area</h2>
       </div>
     </>
   );
