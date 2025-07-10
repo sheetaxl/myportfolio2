@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  padding-bottom: 80px; /* Makes space for footer */
+}
+body {
+  background-color: #121212; /* Dark background */
+  color: #f0f0f0;             /* Light text */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ✅ Override Bootstrap colors for Dark Mode */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.bg-light {
+  background-color: #1e1e1e !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.text-dark {
+  color: #f0f0f0 !important;
+}
+
+.text-light {
+  color: #ffffff !important;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+.navbar {
+  background-color: #1c1c1c !important;
+  border-bottom: 1px solid #333;
+}
+
+.App-link {
+  color: #61dafb;
+}
+input,
+textarea {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* 🌙 Global Dark Theme */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ✅ Override Bootstrap Light Defaults */
+.bg-light {
+  background-color: #1e1e1e !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.text-dark {
+  color: #f0f0f0 !important;
+}
+
+.text-light {
+  color: #ffffff !important;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+.navbar {
+  background-color: #1c1c1c !important;
+  border-bottom: 1px solid #333;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+}
+/* 🌙 Global Dark Theme Styles */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #90caf9;
+}
+
+a:hover {
+  color: #bbdefb;
+}
+
+/* Bootstrap overrides */
+.bg-light {
+  background-color: #1e1e1e !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.text-dark {
+  color: #f0f0f0 !important;
+}
+
+.text-light {
+  color: #ffffff !important;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+
+input,
+textarea {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bbb;
+}
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f0f0f0;
+}
