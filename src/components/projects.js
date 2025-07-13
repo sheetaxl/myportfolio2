@@ -3,19 +3,19 @@ import React from 'react';
 const Projects = () => {
   const projectList = [
     {
-      title: 'To-Do App',
-      desc: 'A simple React to-do list with add/delete functionality and local storage.',
-      link: '#'
+      title: 'Age-Calculator',
+      desc: 'A simple age calculator with add/delete functionality and local storage.',
+      link: 'https://sheetalagecalculator.netlify.app/'
     },
     {
-      title: 'Responsive Portfolio Website',
-      desc: 'A responsive portfolio using React and Bootstrap with reusable components.',
-      link: '#'
+      title: 'GITM Portfolio Website',
+      desc: 'A about Me portfolio using html and Bootstrap with reusable components.',
+      link: 'https://sheportfolio.netlify.app/'
     },
     {
-      title: 'Weather App',
-      desc: 'Weather forecast app using OpenWeatherMap API and Bootstrap UI.',
-      link: '#'
+      title: 'Log-in Form',
+      desc: 'A Front-end login form that include Email and Password .',
+      link: 'https://sheetalloginform.netlify.app/'
     }
   ];
 
@@ -29,8 +29,15 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.desc}</p>
-                <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                  View Project
+                <a 
+  href={project.link} 
+  target="_blank" 
+  rel="noreferrer" 
+  className="btn btn-primary"
+>
+  View Project
+
+                  
                 </a>
               </div>
             </div>
